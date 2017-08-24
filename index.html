@@ -18,206 +18,503 @@
 
 	<section class="slide" data-level="0">
 		<h1></h1>
+		<figure>
+			<img src="assets/k1.png" alt="frontpage & introduction">
+			<figcaption></figcaption>
+		</figure>
+	</section>
 
+	<section class="slide" data-level="0">
+		<h1>Outline</h1>
+		<p>Introduction</p>
+		<p>Infrastructure</p>
+		<p>Applications</p>
+		<p>Advanced methods</p>
+		<ul>
+			<li>Energy selective imaging</li>
+			<li>Combining with diffraction</li>
+			<li>Transmission and diffraction imaging</li>
+			<li>Grating interferometry</li>
+		</ul>
+		<p>Conclusion</p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Principles of neutron imaging</h1>
+		<p>Principle:</p>
+		<p>Attenuation of a neutron beam depending on:</p>
+		<ul>
+			<li>material thickness (d) </li>
+			<li>material type (Σ) </li>
+		</ul>
+		<p>Similar and complementary to X-ray imaging</p>
+		<figure>
+			<img src="assets/afbeelding3.png" alt="schematic on intensity">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding4.png" alt="formula for intensity">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding1.png" alt="x ray - matter interaction">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding2.png" alt="neutron - matter interaction">
+			<figcaption></figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Principles of neutron imaging</h1>
+		<p>Principle:</p>
+		<p>Attenuation of a neutron beam depending on:</p>
+		<ul>
+			<li>material thickness (d) </li>
+			<li>material type (Σ) </li>
+		</ul>
+		<p>Similar and complementary to X-ray imaging</p>
+		<figure>
+			<img src="assets/afbeelding3.png" alt="schematic on intensity">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding4.png" alt="formula for intensity">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding5.png" alt="x ray and neutron - matter interaction">
+			<figcaption></figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Practice: X-ray vs Neutrons</h1>
+		<figure>
+			<img src="assets/afbeelding6.png" alt="photo of statue">
+			<figcaption>Photo</figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding7.png" alt="xray image of statue">
+			<figcaption>X-ray</figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding8.png" alt="neutron image of statue">
+			<figcaption>Neutrons</figcaption>
+		</figure>
+		<p>3D?</p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Tomography: Reconstruction schemes</h1>
+		<p>Filtered Backprojection</p>
+		<figure>
+			<img src="assets/k2.png" alt="neutron image of statue">
+			<figcaption>Neutrons</figcaption>
+		</figure>
+		<p><strong>Algebraic Reconstruction Techniques</strong></p>
+		<p>Rewrite reconstruction inverse problem as Ax=b and solve iteratively</p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Infrastructure</h1>
+		<figure>
+			<img src="assets/afbeelding12a.png" alt="infrastructure: source">
+			<figcaption></figcaption>
+		</figure>
 	</section>
 
 	<section class="slide" data-level="0">
 		<h1></h1>
+		<figure>
+			<img src="assets/afbeelding13a.png" alt="infrastructure: beamlines">
+			<figcaption></figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>SINQ Spallation Source</h1>
+		<figure>
+			<img src="assets/k3.png" alt="spallation source">
+			<figcaption></figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Infrastructure: Collimation</h1>
+		<figure>
+			<img src="assets/afbeelding16a.png" alt="infrastructure: Collimation">
+			<figcaption></figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Collimation: L/D</h1>
+		<p>How well-collimated is the beam?</p>
+		<p>L/D ratio: Source to detector distance / Source diameter</p>
+		<figure>
+			<img src="assets/afbeelding17.png" alt="geometric unsharpness">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding18.png" alt="infrastructure: ICON">
+			<figcaption></figcaption>
+		</figure>
+		<p>E.g. ICON: L = 6.88m</p>
+		<ul>
+			<li>d= 20mm, L/D = 344</li>
+			<li> d= 10mm, L/D = 688</li>
+			<li>d= 40mm, L/D = 172 </li>
+			<li> d= 80mm, L/D = 86 </li>
+		</ul>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Example L/D</h1>
+		<figure>
+			<img src="assets/afbeelding19.png" alt="L/D example images">
+			<figcaption></figcaption>
+		</figure>
+		<p>Note: increased L/D means less neutrons & longer exposure times </p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Infrastructure: flight tubes</h1>
+		<figure>
+			<img src="assets/afbeelding20a.png" alt="Infrastructure: flight tubes">
+			<figcaption></figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Components of the detection system</h1>
+		<p><strong>Camera’s:</strong></p>
+		<p>#pixels1024x1024, 2048x2048</p>
+		<p><strong>Lenses:</strong></p>
+		<p>50mm, 100mm, custom</p>
+		<p><strong>Scintillators:</strong></p>
+		<p>6Li ZnS 1:2 (50μm - 300 μm)</p>
+		<p>GdO2S (10μm - 20μm)</p>
+		<figure>
+			<img src="assets/afbeelding21.png" alt="Components of the detection system schematic">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding21a.png" alt="Components of the detection system table">
+			<figcaption></figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Detector example: micro-setup</h1>
+		<p>Camera: 2048 x 2048</p>
+		<p>Lense system: 1:1</p>
+		<p>Scintillator</p>
+		<figure>
+			<img src="assets/afbeelding22.png" alt="Detector example: micro-setup: camera">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding23.png" alt="Detector example: micro-setup: target">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding24.png" alt="Detector example: micro-setup: image">
+			<figcaption></figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Applications: Dissimilar Friction Stir Weld</h1>
+		<figure>
+			<img src="assets/afbeelding25.png" alt="Dissimilar Friction Stir Weld">
+			<figcaption>Aluminium AA2024 & AA2124.17%SiC</figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding26.png" alt="Dissimilar Friction Stir Weld neutrons">
+			<figcaption>neutrons </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding27.png" alt="Dissimilar Friction Stir Weld microscopy">
+			<figcaption>microscopy </figcaption>
+		</figure>
+		<p>Sample: F. Coffi, CENIM, Madrid, </p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Applications: Paleontology</h1>
+		<figure>
+			<img src="assets/afbeelding28.png" alt="Applications: Paleontology">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding29.png" alt="Applications: Paleontology photo">
+			<figcaption></figcaption>
+		</figure>
+		<p>Name: Silphoictidoides ruhuhuensis HUENE (Therapsida, Therocephalia) Alter: Oberes Perm (Cistecephalus-Zone) Fundort: Kingori,
+			Ruhuhu-Gebiet, Ostafrika User: M. Laass, KIT, Karlsruhe, Germany</p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Applications: cultural heritage</h1>
+		<p>Renaissance bronzes</p>
+		<ul>
+			<li>Joint project with Rijksmuseum Amsterdam and Delft University </li>
+			<li>20 objects renaissance bronze sculptures from museum </li>
+			<li>Qualitative evaluation -> manufacturing processes </li>
+		</ul>
+		<figure>
+			<img src="assets/afbeelding30.png" alt="St. Sebastian, Florence, ca. 1610-1615">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding31.png" alt="St. Sebastian, Florence, ca. 1610-1615">
+			<figcaption></figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding32.png" alt="St. Sebastian, Florence, ca. 1610-1615">
+			<figcaption>St. Sebastian, Florence, ca. 1610-1615 </figcaption>
+		</figure>
+		<p>Van Langh et al. (2009) Anal Bioanal Chem 395: 1949–1959 DOI 10.1007/s00216-009-3058-4 D. Mannes, presentation EXAR 2012,
+			PSI
+		</p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Applications: plant and soil research</h1>
+		<figure>
+			<img src="assets/afbeelding33.png" alt="Chick pea roots ">
+			<figcaption>Chick pea roots </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding34.png" alt="D2O flow in roots">
+			<figcaption>D<sub>2</sub>O flow in roots </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding35a.png" alt="Time series of a water droplet on sand">
+			<figcaption>Time series of a water droplet on sand </figcaption>
+		</figure>
+		<p>Root system of chick pea: Moradi A, Carminati A, Vetterlein D, Vontobel P, Lehmann E, Weller U, Hopmans J, Vogel H-J,
+			and Oswald S. Three-dimensional visualization and quantification of water content in the rhizosphere. NEW PHYOLOGIST.
+			Volume: 192 Issue: 3 Pages: 653-663</p>
+		<p>D2O (showing the D2O flow into roots) Zarebanadkouki et al. (submitted) the one your co-author too</p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Applications: fuel cell research</h1>
+		<figure>
+			<img src="assets/afbeelding38.png" alt="fuel cell research">
+			<figcaption> </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding39.png" alt="fuel cell research">
+			<figcaption> </figcaption>
+		</figure>
+		<p>Humidity increases conductivity of the gas diffusion layer, </p>
+		<p>Droplet formation degrades performance </p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Applications: composite cracking</h1>
+		<p>GLARE composite</p>
+		<p>in cooperation with TUDelft (J. Pascoe) </p>
+		<p>Cracking under tensile load </p>
+		<p>Insufficient contrast with X-rays </p>
+		<figure>
+			<img src="assets/afbeelding40a.png" alt="composite cracking">
+			<figcaption> </figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Advanced Methods</h1>
+		<figure>
+			<img src="assets/afbeelding44a.png" alt="Advanced Methods">
+			<figcaption> </figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Energy-selective neutron imaging</h1>
+		<p>Traditionally: Full beam spectrum used: high flux, short exposure times</p>
+		<p>But:</p>
+		<ul>
+			<li>Cross-section is energy-dependent</li>
+			<li>Sharp Bragg edges: coherent elastic scattering up to 2dhkl=λ </li>
+		</ul>
+		<figure>
+			<img src="assets/afbeelding45.png" alt="Energy-selective neutron imaging graph">
+			<figcaption> </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding46a.png" alt="bragg equation">
+			<figcaption> </figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Beamline lay-out</h1>
+		<figure>
+			<img src="assets/afbeelding47.png" alt="Beamline lay-out">
+			<figcaption> </figcaption>
+		</figure>
+		<p>Diffraction effects in transmission: Bragg edges</p>
+		<p>Contrast from crystallographic properties</p>
+		<p>Energy resolving option required: velocity selector, crystal-based, time-of-flight </p>
+		<figure>
+			<img src="assets/afbeelding49.png" alt="formula on intensity">
+			<figcaption> </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding48.png" alt="graph wavelength vs sigma">
+			<figcaption> </figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Applications</h1>
+		<figure>
+			<img src="assets/afbeelding50.png" alt="Crystallographic Phase contrast:Copper vs Iron">
+			<figcaption>Crystallographic Phase contrast: Copper vs Iron </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding51a.png" alt="Ferrite vs cementite: Samurai swords			">
+			<figcaption>Ferrite vs cementite: Samurai swords </figcaption>
+		</figure>
+		<p>Kockelmann, W.; Frei, G.; Lehmann, E. H.; Vontobel, P. & Santisteban, J.Energy-selective neutron transmission imaging at
+			a pulsed source Nuclear instruments and methods in physics research A, 2007, 578, 421-434 </p>
+		<p>F. Salvemini et al,. Quantitative characterization of Japanese ancient swords through energy-resolved neutron imaging,
+			DOI: 10.1039/c2ja30035d </p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Applications: integrated strain measurement</h1>
+		<figure>
+			<img src="assets/afbeelding54.png" alt="integrated strain measurement">
+			<figcaption> </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding55.png" alt="integrated strain measurement">
+			<figcaption> </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding56.png" alt="integrated strain measurement">
+			<figcaption> </figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Combining tomography and diffraction</h1>
+		<p> Tomography at NEUTRA (PSI, CH)</p>
+		<p> Diffraction at ENGIN-X (ISIS, UK)</p>
+		<figure>
+			<img src="assets/afbeelding57.png" alt="Combining tomography and diffraction">
+			<figcaption> </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding58.png" alt="Combining tomography and diffraction">
+			<figcaption> </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding59.png" alt="Combining tomography and diffraction">
+			<figcaption> </figcaption>
+		</figure>
+		<p>R. van Langh et al., New insights into alloy compositions: studying Renaissance bronze statuettes by combined neutron imaging
+			and diffraction techniques, J. Anal. At. Spectrom., 2011, 26, 949 </p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Combined transmission and diffraction imaging</h1>
+		<p>Single crystal nickel-based superalloy helicopter turbine blade</p>
+		<figure>
+			<img src="assets/k4.png" alt="Combined transmission and diffraction imaging">
+			<figcaption> </figcaption>
+		</figure>
+		<p>Access to crystalline properties at short exposure times (μ: 10s ; m: 14s)</p>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Stroboscopic imaging</h1>
+		<p><strong>Example</strong></p>
+		<p>2-stroke running engine at 3000rpm</p>
+		<figure>
+			<img src="assets/afbeelding64.png" alt="Combining tomography and diffraction">
+			<figcaption> </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding65.png" alt="Combining tomography and diffraction">
+			<figcaption> </figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Neutron grating interferometry</h1>
+		<p><strong>Differential phase contrast		</strong></p>
+		<p>Refractive index: N = 1 – δ + iβ</p>
+		<figure>
+			<img src="assets/afbeelding66.png" alt="Neutron grating interferometry">
+			<figcaption> </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding67.png" alt="Neutron grating interferometry">
+			<figcaption> </figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Dark field image</h1>
+		<p>Dark field image: grating sensitivity to ultra-small angle scattering</p>
+		<p>Magnetic domain walls, precipitations, cracks… below resolution limit</p>
+		<figure>
+			<img src="assets/afbeelding68.png" alt="Dark field image">
+			<figcaption> </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/k5.png" alt="Dark field image of euro">
+			<figcaption> </figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Conclusion</h1>
+		<p>Basics of neutron imaging</p>
+		<ul>
+			<li> Beamline lay-out </li>
+			<li> Application examples </li>
+		</ul>
+		<p>Advanced methods</p>
+		<ul>
+			<li> Energy selective imaging </li>
+			<li> Combining with diffraction </li>
+			<li> Transmission and diffraction imaging </li>
+			<li> Grating interferometry </li>
+		</ul>
+		<p>Proposals</p>
+		<ul>
+			<li>duo.psi.ch</li>
+		</ul>
+		<figure>
+			<img src="assets/afbeelding62.png" alt="camera schematic">
+			<figcaption> </figcaption>
+		</figure>
+		<figure>
+			<img src="assets/afbeelding63.png" alt="duo.psi.ch">
+			<figcaption> </figcaption>
+		</figure>
+	</section>
+
+	<section class="slide" data-level="0">
+		<h1>Acknowledgement: the NIAG group</h1>
+		<figure>
+			<img src="assets/k6.png" alt="the NIAG group">
+			<figcaption> </figcaption>
+		</figure>
 
 	</section>
 
 	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
-
-	</section>
-
-	<section class="slide" data-level="0">
-		<h1></h1>
+		<h1>Questions? </h1>
 
 	</section>
 
